@@ -18,7 +18,7 @@ body
 }
 
 .apresentacao{
-    margin: 10% 10%;
+    margin: 15vh 15vh;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,19 +49,30 @@ body
 .apresentacao__links{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .apresentacao__links__botoes{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid  #fd4322;
     width: 280px;
     font-size: 24px;
     margin: 5px;
     padding: 21.5px 0px;
-    background-color: #007bff;
     border-radius: 16px;
-    color: black;
+    color: white;
     text-decoration: none;
     text-align: center;
     font-family: "New Amsterdam", "sans-serif";
     font-weight: 400;
     font-style: normal;
+}
+
+
+.apresentacao__links__botoes:hover{
+    background-color: #272727;
 }
