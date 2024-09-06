@@ -13,12 +13,23 @@ body
     color: white;
 }
 
+.rodape
+{
+    font-family: "New Amsterdam", "sans-serif";
+    padding: 24px;
+    text-align: center;
+    color: black;
+    background-color: #fd4322;
+    font-size: 24px;
+    font-weight: 400;
+}
+
 .destaqueTitulo{
     color: #fd4322;
 }
 
 .apresentacao{
-    margin: 15vh 15vh;
+    padding: 10% 12%;
     display: flex;
     align-items: center;
     justify-content: space-between;
